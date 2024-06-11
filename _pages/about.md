@@ -27,3 +27,5 @@ I hold a PhD degree from Vienna University of Technology (in business informatic
 My current research interests are software performance engineering, especially in a cloud computing context. My current research is funded by Chalmers through the ICT Area of Advance, VR, Vinnova, and the Wallenberg Autonomous Systems Program (WASP), and the Swiss National Science Foundation.
 
 I have published some 150 peer-reviewed publications on (micro-)services, cloud systems, and empirical software engineering, leading to an h-index of 45 as tracked by [Google Scholar](https://scholar.google.com/citations?user=wZ9f8CAAAAAJ&hl=en).
+
+This site is mainly in maintenance mode. Most up-to-date information about my research can be found on the website of [my lab](http://www.icet-lab.eu/).
