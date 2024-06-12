@@ -19,10 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style ="padding:15%" class="card h-100 hoverable">
+<div style ="padding:10%" class="card h-100 hoverable">
   <h3>Important:</h3>
   This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of <a href="http://www.icet-lab.eu/">my lab</a>
 </div>
+
+<br />
 
 I am an Associate Professor of Software Engineering at [Chalmers](https://www.chalmers.se) and [University of Gothenburg](https://www.gu.se/en), Sweden. I lead the [Internet Computing and Emerging Technologies Lab (ICET-lab)](http://www.icet-lab.eu/). I am also currently the head of the Software Engineering 2 unit at Chalmers and the University of Gothenburg, consisting of 6 faculty members and roughly 15 PhD students and postdocs distributed over both universities.
 
