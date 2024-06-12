@@ -23,7 +23,17 @@ social: true # includes social icons at the bottom of the page
   <h3>Important:</h3>
   <p>This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of my research group:</p>
   <br />
-  <a href="http://www.icet-lab.eu/">ICET-lab</a>
+  <a href="http://www.icet-lab.eu/">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="/assets/img/ICET-Lab-LOGO-A2.png" class="img-fluid" alt="ICET-lab logo">
+    </div>
+    <div class="col-md-8">
+      <p>ICET-lab</p>
+      <p>Internet Computing and Emerging Technologies Lab</p>
+    </div>
+  </div>
+  </a>
 </div>
 
 <br />
