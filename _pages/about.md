@@ -19,12 +19,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<div style ="padding:10%" class="card h-100 hoverable">
+<div style ="padding:5%" class="card h-100 hoverable">
   <h3>Important:</h3>
   <p>This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of my research group:</p>
   <br />
-  <div class="row">
-    <div class="col-md-4">
+  <div class="row justify-content-sm-center">
+    <div class="col-md-4 d-none d-md-block">
       <img src="/assets/img/ICET-Lab-LOGO-A2.png" class="img-fluid" alt="ICET-lab logo">
     </div>
     <div class="col-md-8">
