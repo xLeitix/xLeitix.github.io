@@ -1,11 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+description: Philipp's (almost up-to-date) PDF CV
 ---
+
+Here you can [download a complete CV in PDF format](/assets/cv/leitner_cv.pdf), shall you need it for any reason. The CV is updated regularly, but may still be out of sync by a little bit at any point in time.
