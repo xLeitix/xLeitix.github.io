@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+nav: true
+nav_order: 1
 
 profile:
   align: right
@@ -28,4 +30,4 @@ My current research interests are software performance engineering, especially i
 
 I have published some 150 peer-reviewed publications on (micro-)services, cloud systems, and empirical software engineering, leading to an h-index of 45 as tracked by [Google Scholar](https://scholar.google.com/citations?user=wZ9f8CAAAAAJ&hl=en).
 
-This site is mainly in maintenance mode. Most up-to-date information about my research can be found on the website of [my lab](http://www.icet-lab.eu/).
+This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of [my lab](http://www.icet-lab.eu/).
