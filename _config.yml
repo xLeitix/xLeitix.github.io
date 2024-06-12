@@ -8,9 +8,9 @@ middle_name: Wolfgang
 last_name: Leitner
 email: philipp.leitner@chalmers.se
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website of Philipp Leitner. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Academic website of Philipp Leitner.
 footer_text: >
-  Academic website of Philipp Leitner. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Academic website of Philipp Leitner.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: leitner, philipp-leitner, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
