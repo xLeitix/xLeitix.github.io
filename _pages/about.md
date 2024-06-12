@@ -21,7 +21,9 @@ social: true # includes social icons at the bottom of the page
 
 <div style ="padding:10%" class="card h-100 hoverable">
   <h3>Important:</h3>
-  This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of <a href="http://www.icet-lab.eu/">my lab</a>
+  <p>This site is currently in maintenance mode. Most up-to-date information about my research can be found on the website of my research group:</p>
+  <br />
+  <a href="http://www.icet-lab.eu/">ICET-lab</a>
 </div>
 
 <br />
