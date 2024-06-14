@@ -14,7 +14,7 @@ profile:
     <p>Chalmers &</p>
     <p>University of Gothenburg</p>
     <br /><br />
-    <p><a href="mailto:philipp.leitner@chalmers.se">Mail: philipp.leitner@chalmers.se</a></p>
+    <p><a href="mailto:philipp.leitner@chalmers.se">philipp.leitner@chalmers.se</a></p>
     <p>Tel: +46 73-305 69 14</p>
 
 news: false # includes a list of news items
