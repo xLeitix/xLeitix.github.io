@@ -10,10 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Associate Professor</p>
-    <br />
+    <br /><br />  
     <p>Chalmers &</p>
     <p>University of Gothenburg</p>
-    <br />
+    <br /><br />
     <p><a href="mailto:philipp.leitner@chalmers.se">Mail: philipp.leitner@chalmers.se</a></p>
     <p>Tel: +46 73-305 69 14</p>
 
