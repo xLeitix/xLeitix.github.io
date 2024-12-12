@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: leitner.jpg
+  image: leitnerv2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Associate Professor</p>
