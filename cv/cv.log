@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.9)  10 JAN 2025 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.9)  9 MAY 2025 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,25 +1196,14 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count338
 ))
-
-LaTeX Warning: File `profile.png' not found on input line 122.
-
-
-! Package pdftex.def Error: File `profile.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 ...aphics[width=0.18\textwidth]{profile.png}
-                                                  
-? 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+<wasp_profile.jpg, id=4, 446.1468pt x 492.1587pt>
+File: wasp_profile.jpg Graphic file (type jpg)
+<use wasp_profile.jpg>
+Package pdftex.def Info: wasp_profile.jpg  used on input line 122.
+(pdftex.def)             Requested size: 84.55246pt x 93.27081pt.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 25.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -1273,7 +1262,7 @@ ne 146.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+al/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./wasp_profile.jpg>]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1316,7 +1305,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 300.
+ne 301.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1324,7 +1313,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 313.
+ne 314.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1332,15 +1321,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 323.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 325.
+ne 324.
 
 [5]
 
@@ -1349,7 +1330,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 333.
+ne 326.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1357,7 +1338,15 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 342.
+ne 334.
+
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 343.
 
 [6]
 
@@ -1366,7 +1355,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 358.
+ne 359.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1374,7 +1363,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 371.
+ne 372.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1382,7 +1371,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 391.
+ne 392.
 
 [7]
 
@@ -1391,7 +1380,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 411.
+ne 412.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1399,7 +1388,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 413.
+ne 414.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1407,7 +1396,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 421.
+ne 423.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1415,7 +1404,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 432.
+ne 434.
 
 [8]
 
@@ -1424,7 +1413,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 444.
+ne 447.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1432,7 +1421,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 453.
+ne 458.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1440,7 +1429,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 455.
+ne 460.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1448,7 +1437,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 463.
+ne 468.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1456,7 +1445,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 472.
+ne 477.
 
 [9]
 
@@ -1465,15 +1454,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 481.
-
-
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 502.
+ne 486.
 
 [10]
 
@@ -1482,7 +1463,15 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 516.
+ne 515.
+
+
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 529.
 
 [11] [12]
 
@@ -1491,10 +1480,10 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 546.
+ne 559.
 
 
-Overfull \hbox (28.18965pt too wide) in paragraph at lines 558--559
+Overfull \hbox (28.18965pt too wide) in paragraph at lines 571--572
 \OT1/cmr/m/it/10.95 (-20) tems|prevalence and adop-tion\OT1/cmr/m/n/10.95 (-20)
  . PeerJ Com-puter Sci-ence 8:e849 (2022). https://doi.org/10.7717/peerj-
  []
@@ -1506,7 +1495,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 600.
+ne 613.
 
 [15] [16] [17] [18] [19] [20]
 
@@ -1515,10 +1504,10 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 710.
+ne 723.
 
 [21]
-Overfull \hbox (6.9888pt too wide) in paragraph at lines 732--733
+Overfull \hbox (6.9888pt too wide) in paragraph at lines 745--746
 []\OT1/cmr/m/n/10.95 (-20) R. Zabolot-nyi, \OT1/cmr/bx/n/10.95 (-20) P. Leit-ne
 r \OT1/cmr/m/n/10.95 (-20) and S. Dust-dar: \OT1/cmr/m/it/10.95 (-20) Dy-namic 
 Pro-gram Code Dis-tri-bu-tion in Infrastructure-
@@ -1531,7 +1520,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 751.
+ne 764.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1539,7 +1528,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 760.
+ne 773.
 
 [23]
 
@@ -1548,7 +1537,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 785.
+ne 798.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1556,18 +1545,18 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 803.
+ne 816.
 
 [24] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18121 strings out of 476025
- 315185 string characters out of 5790018
+ 18078 strings out of 476025
+ 314524 string characters out of 5790018
  1863388 words of memory out of 5000000
- 37920 multiletter control sequences out of 15000+600000
- 540915 words of font info for 230 fonts, out of 8000000 for 9000
+ 37891 multiletter control sequences out of 15000+600000
+ 540747 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,106p,10624b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1575,15 +1564,14 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (24 pages, 203288 bytes).
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on cv.pdf (24 pages, 512290 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 214 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  60 named destinations out of 1000 (max. 500000)
- 40449 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39942 words of extra memory for PDF output out of 42996 (max. 10000000)
 
