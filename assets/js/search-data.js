@@ -30,117 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-read-more",
-        
-          title: 'Read More! <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://philippleitner.medium.com/read-more-6c4d5698015f?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-some-frequent-writing-tips-i-give-software-engineering-thesis-students",
-        
-          title: 'Some Frequent Writing Tips I Give Software Engineering Thesis Students <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://philippleitner.medium.com/some-frequent-writing-tips-i-give-software-engineering-thesis-students-da2acab30381?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-announcing-the-jss-happy-hour-may-29th",
-        
-          title: 'Announcing the JSS Happy Hour (May 29th) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/announcing-the-jss-happy-hour-may-29th-36cf9cf92f3c?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-marking-changed-text-in-journal-revisions",
-        
-          title: 'Marking Changed Text in Journal Revisions <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://philippleitner.medium.com/marking-changed-text-in-journal-revisions-8583136a4738?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-earl-barr-jss-editor-of-the-year-2019",
-        
-          title: 'Earl Barr, JSS Editor of the Year 2019 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/earl-barr-jss-editor-of-the-year-2019-fda6ad5f9e4b?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-jss-reviewer-of-the-year-awards-2019",
-        
-          title: 'JSS Reviewer of the Year Awards — 2019 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/jss-reviewer-of-the-year-awards-2019-67bac45fa12d?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-the-jss-in-practice-track",
-        
-          title: 'The JSS “In Practice” Track <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/the-jss-in-practice-track-ad268a9fab2f?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-and-the-winner-is",
-        
-          title: 'And the winner is… <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/and-the-winner-is-4035bc044fb7?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-jss-by-the-numbers-mid-2018-edition",
-        
-          title: 'JSS By The Numbers — Mid 2018 Edition <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/jss-editors-selection/jss-by-the-numbers-mid-2018-edition-6c9b8731729?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{id: "post-a-quick-recap-of-the-1st-vienna-seminar-on-the-relation-of-software-architecture-and-devops",
-        
-          title: 'A Quick Recap of the 1st Vienna Seminar on the Relation of Software... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://philippleitner.medium.com/a-quick-recap-of-the-1st-vienna-seminar-on-the-relation-of-software-architecture-and-devops-e2a013ce1555?source=rss-a7d643a6ea6f------2", "_blank");
-          
-        },
-      },{
+        },{id: "projects-project-10",
+          title: 'project 10',
+          description: "A project with an introduction section",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{
         id: 'social-acm',
         title: 'ACM DL',
         section: 'Socials',
