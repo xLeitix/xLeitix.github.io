@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.12)  14 NOV 2025 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.12)  30 DEC 2025 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1514,7 +1514,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 ne 570.
 
 
-Overfull \hbox (6.79196pt too wide) in paragraph at lines 591--593
+Overfull \hbox (6.79196pt too wide) in paragraph at lines 592--594
 \OT1/cmr/m/it/10.95 (-20) a-ture Re-view\OT1/cmr/m/n/10.95 (-20) , Jour-nal of 
 Sys-tems and Soft-ware (JSS), vol. 170. 2020. doi:[]10.1016/j.jss.2020.110708[]
  
@@ -1531,7 +1531,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 626.
+ne 627.
 
 
 
@@ -1540,7 +1540,7 @@ ne 626.
 [16]
 
 [17]
-Overfull \hbox (2.10109pt too wide) in paragraph at lines 664--665
+Overfull \hbox (2.10109pt too wide) in paragraph at lines 665--666
 \OT1/cmr/m/n/10.95 (-20) tional Con-fer-ence on Per-for-mance En-gi-neer-ing (I
 CPE), 2017. doi:[]10.7287/peerj.preprints.2496v2[] 
  []
@@ -1550,13 +1550,13 @@ CPE), 2017. doi:[]10.7287/peerj.preprints.2496v2[]
 [18]
 
 [19]
-Overfull \hbox (2.3176pt too wide) in paragraph at lines 714--718
+Overfull \hbox (2.3176pt too wide) in paragraph at lines 715--719
 \OT1/cmr/m/n/10.95 (-20) fer-ence on Soft-ware Test-ing, Ver-i-fi-ca-tion and V
 al-i-da-tion (ICST), 2011. doi:[]10.1109/ICST.2011.55[] 
  []
 
 
-Overfull \hbox (5.26561pt too wide) in paragraph at lines 720--721
+Overfull \hbox (5.26561pt too wide) in paragraph at lines 721--722
 \OT1/cmr/m/n/10.95 (-20) ence on Web Ser-vices (ICWS), In-dus-try and Ap-pli-ca
 -tions Track, 2010. doi:[]10.1109/ICWS.2010.21[] 
  []
@@ -1570,14 +1570,14 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 737.
+ne 738.
 
 
 
 [21]
 
 [22]
-Overfull \hbox (6.9888pt too wide) in paragraph at lines 759--760
+Overfull \hbox (6.9888pt too wide) in paragraph at lines 760--761
 []\OT1/cmr/m/n/10.95 (-20) R. Zabolot-nyi, \OT1/cmr/bx/n/10.95 (-20) P. Leit-ne
 r \OT1/cmr/m/n/10.95 (-20) and S. Dust-dar: \OT1/cmr/m/it/10.95 (-20) Dy-namic 
 Pro-gram Code Dis-tri-bu-tion in Infrastructure-
@@ -1592,7 +1592,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 778.
+ne 779.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1600,7 +1600,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 787.
+ne 788.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -1608,7 +1608,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 812.
+ne 813.
 
 
 
@@ -1619,7 +1619,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 830.
+ne 831.
 
 
 
@@ -1634,7 +1634,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  18215 strings out of 473190
  315960 string characters out of 5715800
- 924856 words of memory out of 5000000
+ 924855 words of memory out of 5000000
  40842 multiletter control sequences out of 15000+600000
  587732 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1649,10 +1649,10 @@ r/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
 live/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (25 pages, 534919 bytes).
+Output written on cv.pdf (25 pages, 535068 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
+ 340 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  61 named destinations out of 1000 (max. 500000)
  41990 words of extra memory for PDF output out of 42996 (max. 10000000)
 
