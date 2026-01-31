@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-bibliometrics",
+          title: "bibliometrics",
+          description: "Bibliometric analysis based on Google Scholar data.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bibliometrics/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Philipp&#39;s teaching at Gothenburg University and Chalmers",
