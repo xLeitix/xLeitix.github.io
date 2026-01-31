@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Philipp's teaching at Gothenburg University and Chalmers
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 I offer courses in the <a href="https://www.gu.se/en/study-gothenburg/software-engineering-and-management-bachelors-programme-n1sof">Software Engineering and Management (N1SOF)</a> bachelor program (GU) as well as in the <a href="https://www.gu.se/en/study-gothenburg/software-engineering-and-management-masters-programme-n2sof">Software Engineering and Management</a> (N2SOF, GU) or <a href="https://www.chalmers.se/en/education/find-masters-programme/software-engineering-and-technology-msc/">Software Engineering and Technology</a> (MPSOF, Chalmers) master programs. All courses are taught in English, and can only be taken by students enrolled at Gothenburg University or Chalmers.
