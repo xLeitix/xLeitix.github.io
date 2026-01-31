@@ -164,7 +164,7 @@ Breakdown of all 146 publications by type.
 
 ## Venue Ranking Distribution
 
-Distribution of publications by [CORE conference ranking](https://www.core.edu.au/conference-portal). Unranked includes workshop papers, book chapters, and venues not listed in CORE.
+Distribution of the 84 conference papers by [CORE conference ranking](https://www.core.edu.au/conference-portal).
 
 ```chartjs
 {
@@ -174,7 +174,7 @@ Distribution of publications by [CORE conference ranking](https://www.core.edu.a
     "datasets": [
       {
         "label": "Papers",
-        "data": [8, 21, 43, 11, 63],
+        "data": [7, 21, 43, 11, 2],
         "backgroundColor": [
           "rgba(255, 99, 132, 0.8)",
           "rgba(255, 159, 64, 0.8)",
@@ -256,13 +256,3 @@ The ten most-cited publications by total Google Scholar citation count.
   }
 }
 ```
-
-## Collaboration Network
-
-Based on an analysis of 114 papers published between 2014 and 2025, my research has involved **160 unique co-authors** across institutions in Europe, North America, and Asia, with an average of roughly 3 co-authors per paper.
-
-**Top collaborators** (10+ joint papers since 2014): J. Cito (20), J. Scheuner (16), H.C. Gall (15), and G. Schermann (13) — reflecting long-standing ties to the University of Zurich and shared interests in cloud computing, DevOps, and software performance engineering.
-
-**Frequent collaborators** (5–9 papers): C. Laaber, S. Dustdar, S. Schulte, F.G. de Oliveira Neto, R. Hebig, and M.H. Chehreghani, spanning performance testing, cloud/IoT, microservices, and machine learning.
-
-Recent collaborations with R. Khojah, M. Mohamad, and others reflect an emerging focus on LLMs and AI-assisted software engineering.
