@@ -1,0 +1,341 @@
+2026-01-27 16:00:46,035 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:00:46,036 - scraper.core_rankings - INFO - Cache file not found
+2026-01-27 16:00:46,036 - scraper.core_rankings - INFO - Fetching CORE rankings from web...
+2026-01-27 16:00:51,523 - scraper.core_rankings - INFO - Fetched 0 conferences from CORE
+2026-01-27 16:00:51,525 - scraper.core_rankings - INFO - Saved 0 conferences to cache
+2026-01-27 16:00:51,525 - scraper.core_rankings - INFO - CORE rankings fetched and cached successfully
+2026-01-27 16:00:51,531 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:00:51,532 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:00:51,540 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:00:51,547 - scraper.selenium_config - INFO - Loaded 20 user agents from /Users/phileitn/git/projects/scholar_profile_parser/config/user_agents.txt
+2026-01-27 16:00:51,548 - scraper.selenium_config - INFO - Creating stealth driver (headless=False)
+2026-01-27 16:00:52,658 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/phileitn/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-27 16:00:56,391 - __main__ - ERROR - Fatal error
+Traceback (most recent call last):
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/main.py", line 143, in main
+    with ScholarScraper(url, headless=headless) as scraper:
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 294, in __enter__
+    self.initialize()
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 71, in initialize
+    self.driver = create_stealth_driver(headless=self.headless)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 153, in create_stealth_driver
+    return config.create_stealth_driver(headless=headless, user_agent=user_agent)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 112, in create_stealth_driver
+    driver = uc.Chrome(options=options, version_main=None)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 61, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 209, in __init__
+    self.start_session(capabilities)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 724, in start_session
+    super(selenium.webdriver.chrome.webdriver.WebDriver, self).start_session(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+0   undetected_chromedriver             0x0000000104b95428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104b8cc8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x00000001045a0f25 undetected_chromedriver + 454437
+3   undetected_chromedriver             0x00000001045cf7eb undetected_chromedriver + 645099
+4   undetected_chromedriver             0x00000001045cba73 undetected_chromedriver + 629363
+5   undetected_chromedriver             0x0000000104629a4d undetected_chromedriver + 1014349
+6   undetected_chromedriver             0x000000010462939d undetected_chromedriver + 1012637
+7   undetected_chromedriver             0x000000010462b168 undetected_chromedriver + 1020264
+8   undetected_chromedriver             0x000000010462af1c undetected_chromedriver + 1019676
+9   undetected_chromedriver             0x00000001045e79b1 undetected_chromedriver + 743857
+10  undetected_chromedriver             0x00000001045e87b1 undetected_chromedriver + 747441
+11  undetected_chromedriver             0x0000000104b4d3b1 undetected_chromedriver + 6402993
+12  undetected_chromedriver             0x0000000104b5173e undetected_chromedriver + 6420286
+13  undetected_chromedriver             0x0000000104b2d0dc undetected_chromedriver + 6271196
+14  undetected_chromedriver             0x0000000104b521a8 undetected_chromedriver + 6422952
+15  undetected_chromedriver             0x0000000104b1b8c0 undetected_chromedriver + 6199488
+16  undetected_chromedriver             0x0000000104b794b8 undetected_chromedriver + 6583480
+17  undetected_chromedriver             0x0000000104b79672 undetected_chromedriver + 6583922
+18  undetected_chromedriver             0x0000000104b8c891 undetected_chromedriver + 6662289
+19  libsystem_pthread.dylib             0x00007ff81083ee4d _pthread_start + 115
+20  libsystem_pthread.dylib             0x00007ff81083a857 thread_start + 15
+
+2026-01-27 16:01:16,404 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:01:16,404 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:01:16,404 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:01:16,404 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:01:16,404 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:01:16,406 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:01:16,406 - scraper.selenium_config - INFO - Loaded 20 user agents from /Users/phileitn/git/projects/scholar_profile_parser/config/user_agents.txt
+2026-01-27 16:01:16,406 - scraper.selenium_config - INFO - Creating stealth driver (headless=False)
+2026-01-27 16:01:17,895 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/phileitn/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-27 16:01:20,700 - __main__ - ERROR - Fatal error
+Traceback (most recent call last):
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/main.py", line 143, in main
+    with ScholarScraper(url, headless=headless) as scraper:
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 294, in __enter__
+    self.initialize()
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 71, in initialize
+    self.driver = create_stealth_driver(headless=self.headless)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 155, in create_stealth_driver
+    return config.create_stealth_driver(headless=headless, user_agent=user_agent)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 114, in create_stealth_driver
+    driver = uc.Chrome(options=options, version_main=None)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 61, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 209, in __init__
+    self.start_session(capabilities)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 724, in start_session
+    super(selenium.webdriver.chrome.webdriver.WebDriver, self).start_session(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: cannot connect to chrome at 127.0.0.1:55170
+from session not created: This version of ChromeDriver only supports Chrome version 144
+Current browser version is 142.0.7444.176
+Stacktrace:
+0   undetected_chromedriver             0x00000001007f1428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x00000001007e8c8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x00000001001fcf25 undetected_chromedriver + 454437
+3   undetected_chromedriver             0x0000000100240819 undetected_chromedriver + 731161
+4   undetected_chromedriver             0x000000010023f631 undetected_chromedriver + 726577
+5   undetected_chromedriver             0x0000000100234289 undetected_chromedriver + 680585
+6   undetected_chromedriver             0x000000010028785a undetected_chromedriver + 1022042
+7   undetected_chromedriver             0x0000000100286f1c undetected_chromedriver + 1019676
+8   undetected_chromedriver             0x00000001002439b1 undetected_chromedriver + 743857
+9   undetected_chromedriver             0x00000001002447b1 undetected_chromedriver + 747441
+10  undetected_chromedriver             0x00000001007a93b1 undetected_chromedriver + 6402993
+11  undetected_chromedriver             0x00000001007ad73e undetected_chromedriver + 6420286
+12  undetected_chromedriver             0x00000001007890dc undetected_chromedriver + 6271196
+13  undetected_chromedriver             0x00000001007ae1a8 undetected_chromedriver + 6422952
+14  undetected_chromedriver             0x00000001007778c0 undetected_chromedriver + 6199488
+15  undetected_chromedriver             0x00000001007d54b8 undetected_chromedriver + 6583480
+16  undetected_chromedriver             0x00000001007d5672 undetected_chromedriver + 6583922
+17  undetected_chromedriver             0x00000001007e8891 undetected_chromedriver + 6662289
+18  libsystem_pthread.dylib             0x00007ff81083ee4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff81083a857 thread_start + 15
+
+2026-01-27 16:01:36,053 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:01:36,054 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:01:36,054 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:01:36,054 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:01:36,054 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:01:36,055 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:01:36,055 - scraper.selenium_config - INFO - Loaded 20 user agents from /Users/phileitn/git/projects/scholar_profile_parser/config/user_agents.txt
+2026-01-27 16:01:36,055 - scraper.selenium_config - INFO - Creating stealth driver (headless=False)
+2026-01-27 16:01:37,187 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/phileitn/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-27 16:01:39,483 - scraper.selenium_config - WARNING - First attempt failed: Message: session not created: cannot connect to chrome at 127.0.0.1:55251
+from session not created: This version of ChromeDriver only supports Chrome version 144
+Current browser version is 142.0.7444.176
+Stacktrace:
+0   undetected_chromedriver             0x0000000105286428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x000000010527dc8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104c91f25 undetected_chromedriver + 454437
+3   undetected_chromedriver             0x0000000104cd5819 undetected_chromedriver + 731161
+4   undetected_chromedriver             0x0000000104cd4631 undetected_chromedriver + 726577
+5   undetected_chromedriver             0x0000000104cc9289 undetected_chromedriver + 680585
+6   undetected_chromedriver             0x0000000104d1c85a undetected_chromedriver + 1022042
+7   undetected_chromedriver             0x0000000104d1bf1c undetected_chromedriver + 1019676
+8   undetected_chromedriver             0x0000000104cd89b1 undetected_chromedriver + 743857
+9   undetected_chromedriver             0x0000000104cd97b1 undetected_chromedriver + 747441
+10  undetected_chromedriver             0x000000010523e3b1 undetected_chromedriver + 6402993
+11  undetected_chromedriver             0x000000010524273e undetected_chromedriver + 6420286
+12  undetected_chromedriver             0x000000010521e0dc undetected_chromedriver + 6271196
+13  undetected_chromedriver             0x00000001052431a8 undetected_chromedriver + 6422952
+14  undetected_chromedriver             0x000000010520c8c0 undetected_chromedriver + 6199488
+15  undetected_chromedriver             0x000000010526a4b8 undetected_chromedriver + 6583480
+16  undetected_chromedriver             0x000000010526a672 undetected_chromedriver + 6583922
+17  undetected_chromedriver             0x000000010527d891 undetected_chromedriver + 6662289
+18  libsystem_pthread.dylib             0x00007ff81083ee4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff81083a857 thread_start + 15
+. Trying with explicit version...
+2026-01-27 16:01:41,563 - undetected_chromedriver.patcher - INFO - patching driver executable /Users/phileitn/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-27 16:01:41,614 - __main__ - ERROR - Fatal error
+Traceback (most recent call last):
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 116, in create_stealth_driver
+    driver = uc.Chrome(options=options, use_subprocess=True)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 466, in __init__
+    super(Chrome, self).__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/chromium/webdriver.py", line 61, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 209, in __init__
+    self.start_session(capabilities)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 724, in start_session
+    super(selenium.webdriver.chrome.webdriver.WebDriver, self).start_session(
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 293, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: cannot connect to chrome at 127.0.0.1:55251
+from session not created: This version of ChromeDriver only supports Chrome version 144
+Current browser version is 142.0.7444.176
+Stacktrace:
+0   undetected_chromedriver             0x0000000105286428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x000000010527dc8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104c91f25 undetected_chromedriver + 454437
+3   undetected_chromedriver             0x0000000104cd5819 undetected_chromedriver + 731161
+4   undetected_chromedriver             0x0000000104cd4631 undetected_chromedriver + 726577
+5   undetected_chromedriver             0x0000000104cc9289 undetected_chromedriver + 680585
+6   undetected_chromedriver             0x0000000104d1c85a undetected_chromedriver + 1022042
+7   undetected_chromedriver             0x0000000104d1bf1c undetected_chromedriver + 1019676
+8   undetected_chromedriver             0x0000000104cd89b1 undetected_chromedriver + 743857
+9   undetected_chromedriver             0x0000000104cd97b1 undetected_chromedriver + 747441
+10  undetected_chromedriver             0x000000010523e3b1 undetected_chromedriver + 6402993
+11  undetected_chromedriver             0x000000010524273e undetected_chromedriver + 6420286
+12  undetected_chromedriver             0x000000010521e0dc undetected_chromedriver + 6271196
+13  undetected_chromedriver             0x00000001052431a8 undetected_chromedriver + 6422952
+14  undetected_chromedriver             0x000000010520c8c0 undetected_chromedriver + 6199488
+15  undetected_chromedriver             0x000000010526a4b8 undetected_chromedriver + 6583480
+16  undetected_chromedriver             0x000000010526a672 undetected_chromedriver + 6583922
+17  undetected_chromedriver             0x000000010527d891 undetected_chromedriver + 6662289
+18  libsystem_pthread.dylib             0x00007ff81083ee4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff81083a857 thread_start + 15
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/main.py", line 143, in main
+    with ScholarScraper(url, headless=headless) as scraper:
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 294, in __enter__
+    self.initialize()
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 71, in initialize
+    self.driver = create_stealth_driver(headless=self.headless)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 160, in create_stealth_driver
+    return config.create_stealth_driver(headless=headless, user_agent=user_agent)
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/selenium_config.py", line 119, in create_stealth_driver
+    driver = uc.Chrome(options=options, version_main=142, use_subprocess=True)
+  File "/Users/phileitn/Library/Python/3.9/lib/python/site-packages/undetected_chromedriver/__init__.py", line 269, in __init__
+    raise RuntimeError("you cannot reuse the ChromeOptions object")
+RuntimeError: you cannot reuse the ChromeOptions object
+2026-01-27 16:02:28,396 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:02:28,397 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:02:28,397 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:02:28,397 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:02:28,397 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:02:28,398 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:02:28,398 - scraper.scholar_scraper - INFO - Using simple Selenium mode
+2026-01-27 16:02:28,399 - __main__ - ERROR - Fatal error
+Traceback (most recent call last):
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/main.py", line 150, in main
+    with ScholarScraper(url, headless=headless, simple_mode=simple) as scraper:
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 302, in __enter__
+    self.initialize()
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/scholar_scraper.py", line 76, in initialize
+    from scraper.simple_selenium import create_simple_driver
+  File "/Users/phileitn/git/projects/scholar_profile_parser/src/scraper/simple_selenium.py", line 13, in <module>
+    from webdriver_manager.chrome import ChromeDriverManager
+ModuleNotFoundError: No module named 'webdriver_manager'
+2026-01-27 16:02:55,218 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:02:55,218 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:02:55,219 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:02:55,219 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:02:55,219 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:02:55,220 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:02:55,220 - scraper.scholar_scraper - INFO - Using simple Selenium mode
+2026-01-27 16:02:55,391 - scraper.simple_selenium - INFO - Creating simple Chrome driver (headless=False)
+2026-01-27 16:02:55,391 - WDM - INFO - ====== WebDriver manager ======
+2026-01-27 16:02:55,570 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:02:55,683 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:02:55,740 - WDM - INFO - There is no [mac64] chromedriver "142.0.7444.175" for browser google-chrome "142.0.7444" in cache
+2026-01-27 16:02:55,750 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:02:55,948 - WDM - INFO - WebDriver version 142.0.7444.175 selected
+2026-01-27 16:02:55,951 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-27 16:02:55,951 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2026-01-27 16:02:56,171 - WDM - INFO - Driver downloading response is 200
+2026-01-27 16:02:56,941 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:02:57,076 - WDM - INFO - Driver has been saved in cache [/Users/phileitn/.wdm/drivers/chromedriver/mac64/142.0.7444.175]
+2026-01-27 16:02:59,519 - scraper.simple_selenium - INFO - Simple Chrome driver created successfully
+2026-01-27 16:02:59,521 - scraper.scholar_scraper - INFO - Scraper initialized successfully
+2026-01-27 16:02:59,521 - scraper.scholar_scraper - INFO - Navigating to profile: https://scholar.google.com/citations?user=wZ9f8CAAAAAJ&hl=en
+2026-01-27 16:03:05,789 - parsers.profile_parser - INFO - Papers table loaded successfully
+2026-01-27 16:03:05,789 - scraper.scholar_scraper - INFO - Loading all papers from profile...
+2026-01-27 16:03:05,794 - parsers.profile_parser - INFO - Found 20 paper rows in table
+2026-01-27 16:03:06,331 - scraper.scholar_scraper - INFO - Loaded 20 papers so far...
+2026-01-27 16:03:13,863 - parsers.profile_parser - INFO - Found 100 paper rows in table
+2026-01-27 16:03:16,148 - scraper.scholar_scraper - INFO - Loaded 100 papers so far...
+2026-01-27 16:03:21,855 - parsers.profile_parser - INFO - Found 200 paper rows in table
+2026-01-27 16:03:26,341 - scraper.scholar_scraper - INFO - Loaded 200 papers so far...
+2026-01-27 16:03:33,846 - parsers.profile_parser - INFO - Found 209 paper rows in table
+2026-01-27 16:03:38,826 - scraper.scholar_scraper - INFO - Loaded 209 papers so far...
+2026-01-27 16:03:38,832 - parsers.profile_parser - INFO - Show more button is disabled - all papers loaded
+2026-01-27 16:03:38,832 - scraper.scholar_scraper - INFO - Finished loading papers (total: 209)
+2026-01-27 16:03:38,832 - scraper.scholar_scraper - INFO - Successfully scraped 209 papers
+2026-01-27 16:03:38,945 - scraper.scholar_scraper - INFO - WebDriver closed
+2026-01-27 16:03:38,962 - exporters.csv_exporter - INFO - Exported 10 papers to test_results.csv
+2026-01-27 16:06:08,227 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:06:08,228 - scraper.core_rankings - INFO - Loaded 0 conferences from cache
+2026-01-27 16:06:08,228 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:06:08,228 - scraper.core_rankings - INFO - Fetching CORE rankings from web...
+2026-01-27 16:06:13,970 - scraper.core_rankings - INFO - Fetched 1958 conferences from CORE
+2026-01-27 16:06:13,982 - scraper.core_rankings - INFO - Saved 1958 conferences to cache
+2026-01-27 16:06:13,982 - scraper.core_rankings - INFO - CORE rankings fetched and cached successfully
+2026-01-27 16:06:13,985 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:06:13,985 - scraper.scholar_scraper - INFO - Using simple Selenium mode
+2026-01-27 16:06:14,000 - scraper.simple_selenium - INFO - Creating simple Chrome driver (headless=False)
+2026-01-27 16:06:14,000 - WDM - INFO - ====== WebDriver manager ======
+2026-01-27 16:06:14,518 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:06:14,588 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:06:14,644 - WDM - INFO - Driver [/Users/phileitn/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-27 16:06:16,245 - scraper.simple_selenium - INFO - Simple Chrome driver created successfully
+2026-01-27 16:06:16,246 - scraper.scholar_scraper - INFO - Scraper initialized successfully
+2026-01-27 16:06:16,246 - scraper.scholar_scraper - INFO - Navigating to profile: https://scholar.google.com/citations?user=wZ9f8CAAAAAJ&hl=en
+2026-01-27 16:06:21,537 - parsers.profile_parser - INFO - Papers table loaded successfully
+2026-01-27 16:06:21,538 - scraper.scholar_scraper - INFO - Loading all papers from profile...
+2026-01-27 16:06:21,543 - parsers.profile_parser - INFO - Found 20 paper rows in table
+2026-01-27 16:06:22,068 - scraper.scholar_scraper - INFO - Loaded 20 papers so far...
+2026-01-27 16:06:27,438 - parsers.profile_parser - INFO - Found 100 paper rows in table
+2026-01-27 16:06:29,969 - scraper.scholar_scraper - INFO - Loaded 100 papers so far...
+2026-01-27 16:06:36,648 - parsers.profile_parser - INFO - Found 200 paper rows in table
+2026-01-27 16:06:41,301 - scraper.scholar_scraper - INFO - Loaded 200 papers so far...
+2026-01-27 16:06:48,320 - parsers.profile_parser - INFO - Found 209 paper rows in table
+2026-01-27 16:06:53,218 - scraper.scholar_scraper - INFO - Loaded 209 papers so far...
+2026-01-27 16:06:53,224 - parsers.profile_parser - INFO - Show more button is disabled - all papers loaded
+2026-01-27 16:06:53,224 - scraper.scholar_scraper - INFO - Finished loading papers (total: 209)
+2026-01-27 16:06:53,224 - scraper.scholar_scraper - INFO - Successfully scraped 209 papers
+2026-01-27 16:06:53,341 - scraper.scholar_scraper - INFO - WebDriver closed
+2026-01-27 16:06:53,356 - exporters.csv_exporter - INFO - Exported 10 papers to test_results.csv
+2026-01-27 16:15:22,883 - rankings.journal_mapper - INFO - Loaded 15 journals and 13 aliases from /Users/phileitn/git/projects/scholar_profile_parser/data/journal_rankings.json
+2026-01-27 16:15:22,889 - scraper.core_rankings - INFO - Loaded 1958 conferences from cache
+2026-01-27 16:15:22,889 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:15:22,891 - scraper.core_rankings - INFO - Loaded 1958 conferences from cache
+2026-01-27 16:15:22,891 - scraper.core_rankings - INFO - Loaded CORE rankings from cache
+2026-01-27 16:15:22,892 - scraper.scholar_scraper - INFO - Initializing Scholar scraper...
+2026-01-27 16:15:22,892 - scraper.scholar_scraper - INFO - Using simple Selenium mode
+2026-01-27 16:15:22,901 - scraper.simple_selenium - INFO - Creating simple Chrome driver (headless=False)
+2026-01-27 16:15:22,901 - WDM - INFO - ====== WebDriver manager ======
+2026-01-27 16:15:23,363 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:15:23,431 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-27 16:15:23,488 - WDM - INFO - Driver [/Users/phileitn/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2026-01-27 16:15:25,265 - scraper.simple_selenium - INFO - Simple Chrome driver created successfully
+2026-01-27 16:15:25,272 - scraper.scholar_scraper - INFO - Scraper initialized successfully
+2026-01-27 16:15:25,273 - scraper.scholar_scraper - INFO - Navigating to profile: https://scholar.google.com/citations?user=wZ9f8CAAAAAJ&hl=en
+2026-01-27 16:15:31,080 - parsers.profile_parser - INFO - Papers table loaded successfully
+2026-01-27 16:15:31,080 - scraper.scholar_scraper - INFO - Loading all papers from profile...
+2026-01-27 16:15:31,086 - parsers.profile_parser - INFO - Found 20 paper rows in table
+2026-01-27 16:15:31,732 - scraper.scholar_scraper - INFO - Loaded 20 papers so far...
+2026-01-27 16:15:39,006 - parsers.profile_parser - INFO - Found 100 paper rows in table
+2026-01-27 16:15:41,816 - scraper.scholar_scraper - INFO - Loaded 100 papers so far...
+2026-01-27 16:15:48,474 - parsers.profile_parser - INFO - Found 200 paper rows in table
+2026-01-27 16:15:53,770 - scraper.scholar_scraper - INFO - Loaded 200 papers so far...
+2026-01-27 16:15:59,611 - parsers.profile_parser - INFO - Found 209 paper rows in table
+2026-01-27 16:16:04,821 - scraper.scholar_scraper - INFO - Loaded 209 papers so far...
+2026-01-27 16:16:04,827 - parsers.profile_parser - INFO - Show more button is disabled - all papers loaded
+2026-01-27 16:16:04,827 - scraper.scholar_scraper - INFO - Finished loading papers (total: 209)
+2026-01-27 16:16:04,827 - scraper.scholar_scraper - INFO - Successfully scraped 209 papers
+2026-01-27 16:16:04,958 - scraper.scholar_scraper - INFO - WebDriver closed
+2026-01-27 16:16:05,053 - exporters.csv_exporter - INFO - Exported 209 papers to scholar_full_profile.csv
