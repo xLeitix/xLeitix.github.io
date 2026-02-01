@@ -1,0 +1,123 @@
+RESEARCH SUMMARY - PHILIPP LEITNER
+Generated: 2026-01-28
+Based on analysis of 146 peer-reviewed publications (7,768 citations, h-index: 48)
+
+================================================================================
+
+Your research centers on the empirical study of modern cloud-native software architectures and development practices, with a particular emphasis on understanding how emerging technologies perform in real-world industrial settings. Your recent work has evolved to investigate how artificial intelligence is transforming software engineering practice, exemplified by your observational study of ChatGPT usage among professional developers (https://arxiv.org/abs/2404.14901), which revealed that practitioners primarily use LLMs for guidance and learning rather than direct code generation. This builds on a substantial body of work examining serverless computing and Function-as-a-Service platforms (https://arxiv.org/abs/2004.03276), where you have systematically evaluated performance characteristics and identified critical gaps between academic benchmarking and industrial usage patterns. Your research consistently employs mixed-method empirical approaches—combining interviews, surveys, repository mining, and quantitative analysis—to bridge the gap between theoretical frameworks and the messy realities of software development in practice.
+
+A defining thread throughout your work is the investigation of architectural evolution and migration patterns, particularly the systemic and technical complexities of transitioning to microservices (https://link.springer.com/article/10.1007/s10664-023-10308-9), where you have documented the long-term organizational changes beyond mere technical decomposition. You have established yourself as a leading voice in software performance engineering for cloud systems, developing methodologies and tools for benchmarking everything from Infrastructure-as-a-Service providers to microbenchmark suites, with particular attention to the performance variability and testing challenges inherent in elastic cloud environments. Your research agenda reflects a pragmatic focus on DevOps practices, continuous experimentation, and the human factors in software engineering, consistently asking not just what technologies can do, but how developers actually use them and what organizational changes are required for successful adoption.
+
+================================================================================
+
+KEY SOURCES:
+
+1. Beyond Code Generation: An Observational Study of ChatGPT Usage in Software
+   Engineering Practice (2024)
+   https://arxiv.org/abs/2404.14901
+
+2. Function-as-a-Service Performance Evaluation: A Multivocal Literature Review (2020)
+   https://arxiv.org/abs/2004.03276
+
+3. An empirical study of the systemic and technical migration towards microservices (2023)
+   https://link.springer.com/article/10.1007/s10664-023-10308-9
+
+================================================================================
+
+RESEARCH IMPACT METRICS:
+- Total Peer-Reviewed Publications: 146
+- Total Citations: 7,768
+- H-Index: 48
+- i10-Index: 106 (papers with ≥10 citations)
+- Papers with 100+ citations: 22
+- Papers with 50+ citations: 47
+
+PUBLICATION BREAKDOWN BY TYPE:
+- Conference Papers: 84
+- Journal Articles: 40
+- Workshop Papers: 14
+- Book Chapters: 8
+
+CORE CONFERENCE RANKINGS:
+- A* (Top Venues): 8 papers
+- A (Excellent): 21 papers
+- B (Good): 43 papers
+- C (Other): 11 papers
+
+JOURNAL IMPACT FACTORS:
+- Journals with Impact Factor: 39 of 40
+
+TOP 10 MOST CITED PUBLICATIONS:
+ 1. [462 cit] Optimized IoT service placement in the fog (2017) - Journal
+ 2. [389 cit] Extraction of microservices from monolithic software architectures (2017) - ICSM A
+ 3. [306 cit] Patterns in the chaos - A study of performance variation (2016) - Journal
+ 4. [279 cit] Resource provisioning for IoT services in the fog (2016) - Conference A
+ 5. [217 cit] Monitoring, prediction and prevention of SLA violations (2010) - Conference A
+ 6. [210 cit] An empirical analysis of the Docker container ecosystem (2017) - MSR A
+ 7. [200 cit] Comparing and combining predictive business process monitoring (2014) - Journal
+ 8. [198 cit] A mixed-method empirical study of Function-as-a-Service (2019) - JSS
+ 9. [188 cit] Monitoring and analyzing influential factors of business process (2009) - Conf B
+10. [172 cit] Runtime prediction of SLA violations for composite services (2009) - Conf B
+
+================================================================================
+
+RESEARCH IMPACT:
+
+Your research has achieved substantial academic impact with 7,768 total citations and an h-index of 48, placing you among the leading researchers in software engineering and cloud computing. This impact extends across multiple dimensions: 22 of your publications have exceeded 100 citations each, demonstrating sustained influence on the field, while your i10-index of 106 shows broad recognition across your entire body of work. Your publication record includes 8 papers at A* venues (ICSE, FSE, SIGMETRICS) and 21 papers at A-ranked conferences and journals. Your most influential contributions span foundational work on service-oriented architectures and quality-of-service management (with individual papers receiving up to 462 citations), through to contemporary research on serverless computing, microservices migration, and AI-assisted software development. The geographical and institutional diversity of your collaborators—160 unique co-authors since 2014 spanning institutions across Europe, North America, and Asia—reflects the international reach of your research agenda and your ability to build productive research networks across organizational boundaries.
+
+Beyond traditional metrics, your impact manifests through significant leadership roles in shaping the software engineering research community and translating research into practice. As [Co-leader of the WASP (Wallenberg AI, Autonomous Systems and Software Program) Software Research Cluster](https://wasp-sweden.org/), you play a central role in Sweden's largest-ever individual research program, coordinating research efforts across universities and industry partners. Your service as editor for the Journal of Systems and Software, combined with conference leadership roles such as Program Chair for [ICPE 2022](https://icpe2022.spec.org/program-committee/), positions you as a gatekeeper and curator of knowledge in software performance engineering. Your research has attracted substantial competitive funding from multiple sources including the Swedish Research Council (VR), WASP, VINNOVA, Horizon Europe, and the Swiss National Science Foundation, supporting not only your own investigations but also training the next generation of researchers. At Chalmers University of Technology, where you lead the Software Engineering 2 unit, you bridge academic research with industrial needs, as evidenced by your mixed-method empirical studies that consistently engage with practitioners and address real-world software engineering challenges in cloud-native development, performance optimization, and emerging AI-assisted workflows.
+
+================================================================================
+
+COLLABORATION NETWORK (2014-2025):
+
+Based on analysis of 114 papers from 2014-2025:
+- Total unique co-authors: 160
+- Total co-authorship instances: 352
+- Average co-authors per paper: ~3.1
+
+TOP COLLABORATORS (10+ Papers, 2014-2025):
+
+1. J Cito                    20 papers    Primary recent collaborator
+2. J Scheuner                16 papers    Serverless/cloud benchmarking
+3. HC Gall                   15 papers    University of Zurich
+4. G Schermann               13 papers    DevOps/continuous experimentation
+
+FREQUENT COLLABORATORS (5-9 Papers, 2014-2025):
+
+- C Laaber (9)               Performance testing, microbenchmarking
+- S Dustdar (8)              Continued from earlier Vienna period
+- S Schulte (6)              Cloud/IoT research
+- FG de Oliveira Neto (6)    Recent SE/AI work
+- R Hebig (6)                Microservices migration studies
+- H Gall (5)                 University of Zurich
+- R Zabolotnyi (5)           Cloud platforms
+- MH Chehreghani (5)         Machine learning applications
+
+ACTIVE RECENT COLLABORATORS (4 Papers):
+
+- R Khojah, M Mohamad        ChatGPT/LLM studies (2024-2025)
+- HM Ayas                    Microservices migration
+- L Erlenhov                 Bots in software engineering
+- E Wittern                  Serverless computing
+- P Samoaa                   ML/performance prediction
+- A Longa                    Graph neural networks
+- G Mazlami                  Microservices extraction
+- M Grambow                  Microbenchmarking
+
+COLLABORATION STATISTICS (2014-2025):
+- Co-authors with 10+ papers:   5 (3.1%)   Core collaborators
+- Co-authors with 5-9 papers:   8 (5.0%)   Frequent collaborators
+- Co-authors with 2-4 papers:  49 (30.6%)  Regular collaborators
+- Co-authors with 1 paper:     98 (61.3%)  One-time collaborations
+
+KEY OBSERVATIONS:
+- Jürgen Cito is the most frequent recent collaborator (20 papers)
+- Strong University of Zurich connections (Gall, Schermann, Cito, Laaber)
+- Geographic shift: S Dustdar (68 total papers) drops to 8 since 2014,
+  reflecting transition from TU Vienna to Zurich/Chalmers
+- Emerging AI/ML collaborations (Khojah, Mohamad, Chehreghani, Samoaa)
+  reflect recent pivot toward LLM and software engineering research
+- Sustained focus on serverless computing (Scheuner, Wittern, Abad)
+- Diverse network: 160 unique collaborators across 114 papers shows
+  active cross-institutional collaboration

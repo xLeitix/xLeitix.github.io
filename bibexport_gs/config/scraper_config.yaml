@@ -1,0 +1,15 @@
+rate_limiting:
+  min_delay: 3.0              # Minimum seconds between requests
+  max_delay: 6.0              # Maximum seconds between requests
+  page_delay: 4.0             # Delay after each page load
+  error_delay: 15.0           # Delay after errors
+  max_retries: 3              # Retry attempts
+  backoff_factor: 2.0         # Exponential backoff multiplier
+  requests_per_minute: 8      # Max requests per minute
+  cooldown_period: 60         # Seconds to wait if rate limit hit
+
+scraping:
+  checkpoint_interval: 25     # Save checkpoint every N papers
+  checkpoint_file: checkpoint.json
+  timeout: 30                 # Page load timeout in seconds
+  show_more_wait: 2           # Wait time after clicking "Show more"

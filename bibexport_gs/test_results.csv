@@ -1,0 +1,11 @@
+﻿title,authors,venue,year,citations,ranking
+Optimized IoT service placement in the fog,"O Skarlat, M Nardelli, S Schulte, M Borkowski, P Leitner","Service Oriented Computing and Applications 11 (4), 427-443",2017,462,
+Extraction of microservices from monolithic software architectures,"G Mazlami, J Cito, P Leitner","2017 IEEE International Conference on Web Services (ICWS), 524-531",2017,389,A
+Patterns in the chaos—a study of performance variation and predictability in public iaas clouds,"P Leitner, J Cito","ACM Transactions on Internet Technology (TOIT) 16 (3), 1-23",2016,306,
+Resource provisioning for IoT services in the fog,"O Skarlat, S Schulte, M Borkowski, P Leitner",2016 IEEE 9th international conference on service-oriented computing and …,2016,279,
+"Monitoring, prediction and prevention of sla violations in composite services","P Leitner, A Michlmayr, F Rosenberg, S Dustdar","2010 IEEE International Conference on Web Services, 369-376",2010,217,A
+An empirical analysis of the docker container ecosystem on github,"J Cito, G Schermann, JE Wittern, P Leitner, S Zumberi, HC Gall",2017 IEEE/ACM 14th International Conference on Mining Software Repositories …,2017,210,A
+Comparing and combining predictive business process monitoring techniques,"A Metzger, P Leitner, D Ivanović, E Schmieders, R Franklin, M Carro, ...","IEEE Transactions on Systems, Man, and Cybernetics: Systems 45 (2), 276-290",2014,200,
+A mixed-method empirical study of Function-as-a-Service software development in industrial practice,"P Leitner, E Wittern, J Spillner, W Hummer","Journal of Systems and Software 149, 340-359",2019,198,
+Monitoring and analyzing influential factors of business process performance,"B Wetzstein, P Leitner, F Rosenberg, I Brandic, S Dustdar, F Leymann",2009 IEEE International Enterprise Distributed Object Computing Conference …,2009,188,B
+Runtime prediction of service level agreement violations for composite services,"P Leitner, B Wetzstein, F Rosenberg, A Michlmayr, S Dustdar, F Leymann","European Conference on a Service-Based Internet, 176-186",2009,172,

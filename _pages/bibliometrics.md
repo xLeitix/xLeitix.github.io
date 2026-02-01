@@ -3,13 +3,13 @@ layout: page
 permalink: /bibliometrics/
 title: bibliometrics
 description: Bibliometric analysis based on Google Scholar data.
-nav: true
+nav: false
 nav_order: 3
 chart:
   chartjs: true
 ---
 
-The following is a bibliometric summary of my research output, based on data from [Google Scholar](https://scholar.google.com/citations?user=OGkMwEoAAAAJ) as of January 2026. Bibliometrics provide a quantitative lens on research impact, productivity, and collaboration patterns. While no single metric captures the full picture, together they offer a useful overview of how research has been received and where it has had the most influence.
+The following is a bibliometric summary of my research output, based on data from [Google Scholar](https://scholar.google.com/citations?user=OGkMwEoAAAAJ) as of February 2026. Bibliometrics provide a quantitative lens on research impact, productivity, and collaboration patterns. While no single metric captures the full picture, together they offer a useful overview of how research has been received and where it has had the most influence.
 
 ## Key Metrics
 
@@ -56,11 +56,53 @@ This chart shows the total citations accumulated by papers published in each yea
 {
   "type": "bar",
   "data": {
-    "labels": ["2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "labels": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
     "datasets": [
       {
         "label": "Total Citations",
-        "data": [4, 18, 235, 1007, 569, 268, 314, 473, 434, 439, 821, 1466, 389, 593, 301, 108, 148, 36, 127, 18],
+        "data": [
+          4,
+          18,
+          235,
+          1007,
+          569,
+          268,
+          314,
+          473,
+          434,
+          439,
+          821,
+          1466,
+          389,
+          593,
+          301,
+          108,
+          148,
+          36,
+          127,
+          18
+        ],
         "backgroundColor": "rgba(54, 162, 235, 0.7)",
         "borderColor": "rgba(54, 162, 235, 1)",
         "borderWidth": 1
@@ -70,15 +112,23 @@ This chart shows the total citations accumulated by papers published in each yea
   "options": {
     "responsive": true,
     "plugins": {
-      "legend": { "display": false }
+      "legend": {
+        "display": false
+      }
     },
     "scales": {
       "y": {
         "beginAtZero": true,
-        "title": { "display": true, "text": "Citations" }
+        "title": {
+          "display": true,
+          "text": "Citations"
+        }
       },
       "x": {
-        "title": { "display": true, "text": "Publication Year" }
+        "title": {
+          "display": true,
+          "text": "Publication Year"
+        }
       }
     }
   }
@@ -93,11 +143,53 @@ Research output over time, showing the number of peer-reviewed papers published 
 {
   "type": "bar",
   "data": {
-    "labels": ["2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+    "labels": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
     "datasets": [
       {
         "label": "Publications",
-        "data": [1, 2, 7, 10, 9, 8, 9, 12, 8, 13, 7, 9, 7, 11, 4, 5, 9, 4, 7, 4],
+        "data": [
+          1,
+          2,
+          7,
+          10,
+          9,
+          8,
+          9,
+          12,
+          8,
+          13,
+          7,
+          9,
+          7,
+          11,
+          4,
+          5,
+          9,
+          4,
+          7,
+          4
+        ],
         "backgroundColor": "rgba(75, 192, 192, 0.7)",
         "borderColor": "rgba(75, 192, 192, 1)",
         "borderWidth": 1
@@ -107,16 +199,26 @@ Research output over time, showing the number of peer-reviewed papers published 
   "options": {
     "responsive": true,
     "plugins": {
-      "legend": { "display": false }
+      "legend": {
+        "display": false
+      }
     },
     "scales": {
       "y": {
         "beginAtZero": true,
-        "title": { "display": true, "text": "Number of Papers" },
-        "ticks": { "stepSize": 2 }
+        "title": {
+          "display": true,
+          "text": "Number of Papers"
+        },
+        "ticks": {
+          "stepSize": 2
+        }
       },
       "x": {
-        "title": { "display": true, "text": "Year" }
+        "title": {
+          "display": true,
+          "text": "Year"
+        }
       }
     }
   }
@@ -131,10 +233,20 @@ Breakdown of all 146 publications by type.
 {
   "type": "doughnut",
   "data": {
-    "labels": ["Conference", "Journal", "Workshop", "Book Chapter"],
+    "labels": [
+      "Conference",
+      "Journal",
+      "Workshop",
+      "Book Chapter"
+    ],
     "datasets": [
       {
-        "data": [84, 40, 14, 8],
+        "data": [
+          84,
+          40,
+          14,
+          8
+        ],
         "backgroundColor": [
           "rgba(54, 162, 235, 0.8)",
           "rgba(255, 99, 132, 0.8)",
@@ -170,11 +282,23 @@ Distribution of the 84 conference papers by [CORE conference ranking](https://ww
 {
   "type": "bar",
   "data": {
-    "labels": ["A*", "A", "B", "C", "Unranked"],
+    "labels": [
+      "A*",
+      "A",
+      "B",
+      "C",
+      "Unranked"
+    ],
     "datasets": [
       {
         "label": "Papers",
-        "data": [7, 21, 43, 11, 2],
+        "data": [
+          7,
+          21,
+          43,
+          11,
+          2
+        ],
         "backgroundColor": [
           "rgba(255, 99, 132, 0.8)",
           "rgba(255, 159, 64, 0.8)",
@@ -196,15 +320,23 @@ Distribution of the 84 conference papers by [CORE conference ranking](https://ww
   "options": {
     "responsive": true,
     "plugins": {
-      "legend": { "display": false }
+      "legend": {
+        "display": false
+      }
     },
     "scales": {
       "y": {
         "beginAtZero": true,
-        "title": { "display": true, "text": "Number of Papers" }
+        "title": {
+          "display": true,
+          "text": "Number of Papers"
+        }
       },
       "x": {
-        "title": { "display": true, "text": "CORE Ranking" }
+        "title": {
+          "display": true,
+          "text": "CORE Ranking"
+        }
       }
     }
   }
@@ -221,20 +353,31 @@ The ten most-cited publications by total Google Scholar citation count.
   "data": {
     "labels": [
       "Optimized IoT service placement in the fog (2017)",
-      "Extraction of microservices from monolithic... (2017)",
-      "Patterns in the chaos—performance variation... (2016)",
-      "Resource provisioning for IoT services in the fog (2016)",
-      "Monitoring, prediction and prevention of SLA... (2010)",
-      "An empirical analysis of the Docker container... (2017)",
-      "Comparing and combining predictive business... (2014)",
-      "A mixed-method empirical study of FaaS... (2019)",
-      "Monitoring and analyzing influential factors... (2009)",
-      "Runtime prediction of SLA violations... (2009)"
+      "Extraction of microservices from monolithi... (2017)",
+      "Patterns in the chaos\u2014a study of performan... (2016)",
+      "Resource provisioning for IoT services in ... (2016)",
+      "Monitoring, prediction and prevention of s... (2010)",
+      "An empirical analysis of the docker contai... (2017)",
+      "Comparing and combining predictive busines... (2014)",
+      "A mixed-method empirical study of Function... (2019)",
+      "Monitoring and analyzing influential facto... (2009)",
+      "Runtime prediction of service level agreem... (2009)"
     ],
     "datasets": [
       {
         "label": "Citations",
-        "data": [462, 389, 306, 279, 217, 210, 200, 198, 188, 172],
+        "data": [
+          462,
+          389,
+          306,
+          279,
+          217,
+          210,
+          200,
+          198,
+          188,
+          172
+        ],
         "backgroundColor": "rgba(255, 99, 132, 0.7)",
         "borderColor": "rgba(255, 99, 132, 1)",
         "borderWidth": 1
@@ -245,12 +388,17 @@ The ten most-cited publications by total Google Scholar citation count.
     "indexAxis": "y",
     "responsive": true,
     "plugins": {
-      "legend": { "display": false }
+      "legend": {
+        "display": false
+      }
     },
     "scales": {
       "x": {
         "beginAtZero": true,
-        "title": { "display": true, "text": "Citations" }
+        "title": {
+          "display": true,
+          "text": "Citations"
+        }
       }
     }
   }
