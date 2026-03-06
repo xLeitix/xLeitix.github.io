@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\usepackage{comment}
+
+
+\reversemarginpar % Move the margin to the left of the page
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small\color{Black}#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\usepackage[gen]{eurosym}
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{2012-14} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=1em\hangafter=0 \parbox{\datebox}{#1}\hspace{0.4em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=1em\hangafter=0\noindent\raggedright{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+\newcommand{\MyDescription}[1]{\hangindent=1em\hangafter=0\noindent\raggedright{#1}\par\normalsize\vspace{0.2em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+\newcommand{\NoLeft}{\par\normalsize\vspace{0.2em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+
+\begin{cv}{\spacedallcaps{CV: Philipp Leitner}}
+
+\input{contact}
+
+\vspace{0.5em}
+
+\input{education}
+
+\vspace{0.4em}
+\input{academicpositions}
+
+\vspace{0.4em}
+\input{management}
+
+\vspace{0.4em}
+\input{docent}
+
+\vspace{0.4em}
+\input{supervision}
+
+\vspace{0.4em}
+\input{activities}
+
+\vspace{0.4em}
+\input{invitedtalks}
+
+\vspace{0.4em}
+\input{awards}
+
+\vspace{0.4em}
+\input{ipr}
+
+\end{cv}
+
+\end{document}

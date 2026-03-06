@@ -1,0 +1,170 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+% Single line spacing
+\linespread{1.0}
+
+% Fix headheight for fancyhdr
+\setlength{\headheight}{13.6pt}
+\addtolength{\topmargin}{-1.6pt}
+
+% Page style with header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Philipp Leitner}}
+\fancyhead[R]{Publication List}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Also apply fancy style to first page
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.2em}{0.5em}
+
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0pt}{0.8em}{0.3em}
+
+% Compact lists
+\setlist[itemize]{nosep,leftmargin=1.5em,topsep=0.2em}
+\setlist[enumerate]{nosep,leftmargin=1.5em,topsep=0.2em}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\LARGE\bfseries Philipp Leitner}\\[0.3em]
+{\normalsize Publication List}
+\end{center}
+
+\section{Top 10 Publications}
+
+\begin{enumerate}[leftmargin=2em,itemsep=0.7em]
+
+\item R. Khojah, M. Mohamad, \textbf{P. Leitner}, and F. Gomes: \emph{Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice}, in Proceedings of ACM FSE, 2024.\\
+{\small One of the first large-scale observational studies of how software practitioners actually use LLM-based tools in their daily work. The findings reveal how engineers interact with AI systems in realistic settings---including failure modes, workarounds, and trust calibration---providing empirical grounding for designing more effective and trustworthy AI-based development tools. The study methodology also serves as a template for evaluating AI systems in situ.}
+
+\item R. Khojah, F. Gomes, M. Mohamad, and \textbf{P. Leitner}: \emph{The Impact of Prompt Programming on Function-Level Code Generation}, IEEE Transactions on Software Engineering (TSE), 2025.\\
+{\small Systematically investigates how prompt design choices affect the quality, correctness, and reliability of LLM-generated code at the function level. The controlled experimental design isolates the effect of different prompt engineering strategies on code generation outcomes. The results provide actionable engineering guidelines for building reliable AI-based code generation systems and integrating them into software development pipelines with predictable quality.}
+
+\item R. Khojah, M. Mohamad, L. Erlenhov, F. Gomes, and \textbf{P. Leitner}: \emph{LLM Company Policies and Policy Implications in Software Organizations}, IEEE Software, 2025.\\
+{\small Investigates how software organizations govern the adoption and use of LLM-based tools through interviews and document analysis, revealing significant policy gaps and organizational challenges. The findings are directly relevant to engineering responsible AI deployment in industry settings, identifying the need for systematic governance frameworks that address intellectual property, code quality, and security concerns when integrating AI systems into engineering workflows.}
+
+\item H. Zhang, M. Alhanahnah, F. Ahmed, D. Fatih, \textbf{P. Leitner}, and A. Ali-Eldin: \emph{Machine Learning Systems are Bloated and Vulnerable}, in Proceedings of ACM SIGMETRICS, 2024.\\
+{\small The first systematic study demonstrating that production ML systems contain significant software bloat, which increases attack surface, resource consumption, and deployment complexity. Through analysis of popular ML frameworks and their dependency chains, the paper exposes fundamental engineering quality challenges in how AI/ML systems are built and deployed today, and quantifies the concrete security and efficiency costs of current ML engineering practices.}
+
+\item H. Zhang, M. Alhanahnah, \textbf{P. Leitner}, and A. Ali-Eldin: \emph{BLAFS: A Bloat-Aware Container File System}, in Proceedings of ACM SoCC, 2025.\\
+{\small Presents a novel container file system that transparently reduces software bloat in containerized deployments without requiring changes to application code or container images. Given that AI/ML systems are predominantly deployed as containers and suffer from particularly severe bloat (as shown in our SIGMETRICS paper), BLAFS directly addresses the infrastructure challenges of operating AI systems efficiently and securely at scale, reducing image sizes and attack surface.}
+
+\item M. Jangali, Y. Tang, N. Alexandersson, \textbf{P. Leitner}, J. Yang, and W. Shang: \emph{Automated Generation and Evaluation of JMH Microbenchmark Suites from Unit Tests}, IEEE Transactions on Software Engineering (TSE), 49(4), 2023.\\
+{\small Presents an automated approach to generate performance benchmarks from existing test suites, enabling continuous performance regression detection without manual benchmark authoring effort. This performance testing methodology is essential for engineering AI systems, where model serving and inference pipelines must meet strict latency and throughput requirements, and where performance regressions introduced by framework updates or model changes need to be caught early in the development cycle.}
+
+\item L. Erlenhov, F. Gomes, and \textbf{P. Leitner}: \emph{An Empirical Study of Bots in Software Development --- Characteristics and Challenges from a Practitioner's Perspective}, in Proceedings of ACM ESEC/FSE, 2020.\\
+{\small The first large-scale practitioner study of automated bot usage in software development, characterizing how developers perceive, trust, and interact with autonomous agents in their workflows. The findings on developer trust, notification fatigue, and the balance between automation and human control provide foundational insights for engineering AI-powered development assistants and understanding the socio-technical dynamics of human-AI collaboration in software teams.}
+
+\item J. Cito, \textbf{P. Leitner}, M. Rinard, and H. C. Gall: \emph{Interactive Production Performance Feedback in the IDE}, in Proceedings of ACM/IEEE ICSE, 2019.\\
+{\small Pioneers data-driven developer tooling that integrates production runtime performance data directly into the development environment, enabling developers to reason about real-world system behavior while writing code. The approach establishes engineering patterns for building intelligent, context-aware developer tools that bridge the gap between development and production---a paradigm now central to AI-powered IDEs and coding assistants that leverage runtime context for recommendations.}
+
+\item C. Laaber, J. Scheuner, and \textbf{P. Leitner}: \emph{Software Microbenchmarking in the Cloud. How Bad is it Really?}, Empirical Software Engineering (EMSE), 24(4), 2019.\\
+{\small Comprehensively quantifies how cloud performance variability affects the reliability and reproducibility of software benchmarking results, identifying which benchmark configurations yield stable measurements and which do not. Since AI model training and inference predominantly run on cloud infrastructure, these findings are essential for engineering trustworthy performance evaluation pipelines for AI systems---ensuring that reported model latency, throughput, and cost metrics are meaningful and reproducible.}
+
+\item \textbf{P. Leitner} and J. Cito: \emph{Patterns in the Chaos --- a Study of Performance Variation and Predictability in Public IaaS Clouds}, ACM Transactions on Internet Technology (TOIT), 16(3), 2016.\\
+{\small Provides a systematic analysis of performance predictability in public cloud environments through long-running empirical measurements, identifying patterns, sources of variation, and predictive models for infrastructure performance. As AI systems increasingly depend on cloud infrastructure for both training and serving workloads, understanding and predicting infrastructure performance variability is a prerequisite for engineering AI systems with reliable quality-of-service guarantees and accurate cost estimation.}
+
+\end{enumerate}
+
+\section{All Relevant Publications 2018--2026}
+
+\subsection{Peer-reviewed original articles (journals)}
+
+\begin{itemize}[itemsep=0.2em]
+\item S. Talluri, S. Eismann, J. Scheuner, A. Iosup, \textbf{P. Leitner}, C. Abad, and E. van Eyk: \emph{Let's Trace It: Fine-Grained Serverless Benchmarking for Synchronous and Asynchronous Applications}, Future Generation Computer Systems (FGCS), 2025.
+\item R. Khojah, M. Mohamad, L. Erlenhov, F. Gomes, and \textbf{P. Leitner}: \emph{LLM Company Policies and Policy Implications in Software Organizations}, IEEE Software, 2025.
+\item R. Khojah, F. Gomes, M. Mohamad, and \textbf{P. Leitner}: \emph{The Impact of Prompt Programming on Function-Level Code Generation}, IEEE Transactions on Software Engineering (TSE), 2025.
+\item P. Samoaa, L. Aronsson, A. Longa, \textbf{P. Leitner}, and M. H. Chehreghani: \emph{A Unified Active Learning Framework for Annotating Graph Data for Regression Tasks}, Engineering Applications of Artificial Intelligence (EAAI), 138, 2024.
+\item H. M. Ayas, R. Hebig, and \textbf{P. Leitner}: \emph{An Empirical Investigation on the Competences and Roles of Practitioners in Microservices-Based Architectures}, Journal of Systems and Software (JSS), 213, 2024.
+\item H. M. Ayas, \textbf{P. Leitner}, and R. Hebig: \emph{An Empirical Study of the Systemic and Technical Migration Towards Microservices}, Empirical Software Engineering (EMSE), 28(4), 2023.
+\item M. Grambow, D. Kovalev, C. Laaber, \textbf{P. Leitner}, and D. Bermbach: \emph{Using Microbenchmark Suites to Detect Application Performance Changes}, IEEE Transactions on Cloud Computing (TCC), 11(3), 2023.
+\item M. Jangali, Y. Tang, N. Alexandersson, \textbf{P. Leitner}, J. Yang, and W. Shang: \emph{Automated Generation and Evaluation of JMH Microbenchmark Suites from Unit Tests}, IEEE Transactions on Software Engineering (TSE), 49(4), 2023.
+\item F. Markusse, \textbf{P. Leitner}, and A. Serebrenik: \emph{Using Benchmarking Bots for Continuous Performance Assessment}, IEEE Software, 39(5), 2022.
+\item L. Erlenhov, F. Gomes, and \textbf{P. Leitner}: \emph{Dependency Management Bots in Open-Source Systems---Prevalence and Adoption}, PeerJ Computer Science, 8:e849, 2022.
+\item C. Laaber, \textbf{P. Leitner}, and H. Gall: \emph{Applying Test Case Prioritization to Software Microbenchmarks}, Empirical Software Engineering (EMSE), 26, 133, 2021.
+\item M. Grambow, C. Laaber, \textbf{P. Leitner}, and D. Bermbach: \emph{Using Application Benchmark Call Graphs to Quantify and Improve the Practical Relevance of Microbenchmark Suites}, PeerJ Computer Science, 7:e548, 2021.
+\item Y. Guo and \textbf{P. Leitner}: \emph{Studying the Impact of CI on Pull Request Delivery Time in Open Source Projects --- a Conceptual Replication}, PeerJ Computer Science, 2019.
+\item D. Costa, C. P. Bezemer, \textbf{P. Leitner}, and A. Andrzejak: \emph{What's Wrong With My Benchmark Results? Studying Bad Practices in JMH Benchmarks}, IEEE Transactions on Software Engineering (TSE), 2019.
+\item B. Varghese, \textbf{P. Leitner}, S. Ray, K. Chard, et al.: \emph{Cloud Futurology}, IEEE Computer, 52(9), 2019.
+\item C. Laaber, J. Scheuner, and \textbf{P. Leitner}: \emph{Software Microbenchmarking in the Cloud. How Bad is it Really?}, Empirical Software Engineering (EMSE), 24(4), 2019.
+\item \textbf{P. Leitner}, E. Wittern, J. Spillner, and W. Hummer: \emph{A Mixed-Method Empirical Study of Function-as-a-Service Software Development in Industrial Practice}, Journal of Systems and Software (JSS), 149, 2019.
+\item G. Schermann, J. Cito, \textbf{P. Leitner}, U. Zdun, and H. Gall: \emph{We're Doing It Live: A Multi-Method Empirical Study on Continuous Experimentation}, Information and Software Technology (IST), 99, 2018.
+\item G. Schermann, J. Cito, and \textbf{P. Leitner}: \emph{Continuous Experimentation --- Challenges, Implementation Techniques, and Current Research}, IEEE Software, 35(2), 2018.
+\end{itemize}
+
+\subsection{Peer-reviewed conference contributions}
+
+\begin{itemize}[itemsep=0.2em]
+\item H. Zhang, M. Alhanahnah, \textbf{P. Leitner}, and A. Ali-Eldin: \emph{BLAFS: A Bloat-Aware Container File System}, in Proceedings of ACM SoCC, 2025.
+\item R. Khojah, M. Mohamad, \textbf{P. Leitner}, and F. Gomes: \emph{Beyond Code Generation: An Observational Study of ChatGPT Usage in Software Engineering Practice}, in Proceedings of ACM FSE, 2024.
+\item H. M. Ayas, R. Hebig, and \textbf{P. Leitner}: \emph{The Roles, Responsibilities, and Skills of Engineers in the Era of Microservices-Based Architectures}, in Proceedings of CHASE, 2024.
+\item A. Johansson, C. Holmberg, F. Gomes, and \textbf{P. Leitner}: \emph{The Impact of Compiler Warnings on Code Quality in C++ Projects}, in Proceedings of IEEE/ACM ICPC, 2024.
+\item H. Zhang, M. Alhanahnah, F. Ahmed, D. Fatih, \textbf{P. Leitner}, and A. Ali-Eldin: \emph{Machine Learning Systems are Bloated and Vulnerable}, in Proceedings of ACM SIGMETRICS, 2024.
+\item P. Samoaa, L. Aronsson, \textbf{P. Leitner}, and M. H. Chehreghani: \emph{Batch Mode Deep Active Learning for Regression on Graph Data}, in Proceedings of IEEE Big Data, 2023.
+\item J. Scheuner, R. Deng, J.-P. Stegh\"{o}fer, and \textbf{P. Leitner}: \emph{CrossFit: Fine-grained Benchmarking of Serverless Application Performance across Cloud Providers}, in Proceedings of IEEE/ACM UCC, 2022.
+\item H. Samoaa, A. Longa, M. Mohamad, M. H. Chehreghani, and \textbf{P. Leitner}: \emph{TEP-GNN: Accurate Execution Time Prediction of Functional Tests using Graph Neural Networks}, in Proceedings of PROFES, 2022.
+\item H. M. Ayas, F. Gomes, and \textbf{P. Leitner}: \emph{Empirical Analysis of Microservices Systems Using Consumer-Driven Contract Testing}, in Proceedings of Euromicro SEAA, 2022.
+\item H. M. Ayas, \textbf{P. Leitner}, and R. Hebig: \emph{A Grounded Theory Study on the Migration Journey Towards Microservices}, in Proceedings of PROFES, 2021.
+\item H. M. Ayas, R. Hebig, and \textbf{P. Leitner}: \emph{Facing the Giant: a Grounded Theory Study of Decision-Making in Microservices Migrations}, in Proceedings of ACM/IEEE ESEM, 2021.
+\item P. Samoaa and \textbf{P. Leitner}: \emph{An Exploratory Study of the Impact of Parameterization on JMH Measurement Results in Open-Source Projects}, in Proceedings of ACM/SPEC ICPE, 2021.
+\item C. Laaber, S. W\"{u}rsten, H. C. Gall, and \textbf{P. Leitner}: \emph{Dynamically Reconfiguring Software Microbenchmarks: Reducing Execution Time Without Sacrificing Result Quality}, in Proceedings of ACM ESEC/FSE, 2020.
+\item L. Erlenhov, F. Gomes, and \textbf{P. Leitner}: \emph{An Empirical Study of Bots in Software Development --- Characteristics and Challenges from a Practitioner's Perspective}, in Proceedings of ACM ESEC/FSE, 2020.
+\item G. Schermann, F. Oliveira, E. Wittern, and \textbf{P. Leitner}: \emph{Topology-aware Continuous Experimentation in Microservice-based Applications}, in Proceedings of ICSOC, 2020.
+\item J. Cito, \textbf{P. Leitner}, M. Rinard, and H. C. Gall: \emph{Interactive Production Performance Feedback in the IDE}, in Proceedings of ACM/IEEE ICSE, 2019.
+\item V. Holmqvist, J. Nilsfors, and \textbf{P. Leitner}: \emph{Cachematic --- Automatic Invalidation in Application-Level Caching Systems}, in Proceedings of ACM/SPEC ICPE (Industry Track), 2019.
+\item G. Schermann and \textbf{P. Leitner}: \emph{Search-Based Scheduling of Experiments in Continuous Deployment}, in Proceedings of IEEE ICSME, 2018.
+\item C. Laaber and \textbf{P. Leitner}: \emph{An Evaluation of Open-Source Software Microbenchmark Suites for Continuous Performance Assessment}, in Proceedings of ACM MSR, 2018.
+\end{itemize}
+
+\subsection{Research review articles}
+
+\begin{itemize}[itemsep=0.2em]
+\item H. Samoaa, F. Bayram, P. Salza, and \textbf{P. Leitner}: \emph{A Systematic Mapping Study of Source Code Representation for Deep Learning in Software Engineering}, IET Software, 2022.
+\item J. Scheuner and \textbf{P. Leitner}: \emph{Function-as-a-Service Performance Evaluation: A Multivocal Literature Review}, Journal of Systems and Software (JSS), 170, 2020.
+\end{itemize}
+
+\subsection{Peer-reviewed books and book chapters}
+
+\begin{itemize}[itemsep=0.2em]
+\item R. van der Mei, H. van den Berg, I. Ganchev, K. Tutschku, \textbf{P. Leitner}, P. Lassila, et al.: \emph{State of the Art and Research Challenges in the Area of Autonomous Control for a Reliable Internet of Services}, in: Autonomous Control for a Reliable Internet of Services, Springer, 2018.
+\end{itemize}
+
+\subsection{Other publications}
+
+Workshop papers, demos, and tutorials:
+\begin{itemize}[itemsep=0.2em]
+\item R. Khojah, F. Gomes, and \textbf{P. Leitner}: \emph{From Human-to-Human to Human-to-Bot Conversations in Software Engineering}, in Proceedings of AIware, 2024.
+\item J. Scheuner, M. Bertilsson, O. Gronqvist, H. Tao, H. Lagergren, J.-P. Stegh\"{o}fer, and \textbf{P. Leitner}: \emph{TriggerBench: A Performance Benchmark for Serverless Function Triggers} (Short Paper), in Proceedings of IEEE IC2E, 2022.
+\item J. Scheuner and \textbf{P. Leitner}: \emph{Transpiling Applications into Optimized Serverless Orchestrations}, in Proceedings of FAS*W, 2019.
+\item L. Erlenhov, F. Gomes, R. Scandariato, and \textbf{P. Leitner}: \emph{Current and Future Bots in Software Development}, in Proceedings of BotSE (co-located with ICSE), 2019.
+\item J. Scheuner and \textbf{P. Leitner}: \emph{Tutorial: Performance Benchmarking of Infrastructure-as-a-Service (IaaS) Clouds with Cloud WorkBench}, in Proceedings of IEEE ICAC, 2019.
+\item J. Scheuner and \textbf{P. Leitner}: \emph{Tutorial: Performance Benchmarking of Infrastructure-as-a-Service (IaaS) Clouds with Cloud WorkBench}, in Companion Proceedings of ACM/SPEC ICPE, 2019.
+\item J. Cito, \textbf{P. Leitner}, C. Bosshard, M. Knecht, G. Mazlami, and H. Gall: \emph{PerformanceHat --- Augmenting Source Code with Runtime Performance Traces in the IDE} (Demo), in Companion Proceedings of ACM/IEEE ICSE, 2018.
+\item J. Scheuner and \textbf{P. Leitner}: \emph{A Cloud Benchmark Suite Combining Micro and Applications Benchmarks}, in Proceedings of QUDOS, 2018.
+\end{itemize}
+
+\medskip\noindent Invited and non-reviewed contributions:
+\begin{itemize}[itemsep=0.2em]
+\item F. Markusse, \textbf{P. Leitner}, and A. Serebrenik: \emph{Towards Continuous Performance Assessment of Java Applications With PerfBot}, in Proceedings of BotSE (invited), 2023.
+\item U. Zdun, E. Wittern, and \textbf{P. Leitner}: \emph{Emerging Trends, Challenges, and Experiences in DevOps and Microservice APIs}, IEEE Software, 37(1), 2020.
+\item A. van Hoorn, P. Jamshidi, \textbf{P. Leitner}, and I. Weber: \emph{Report from GI-Dagstuhl Seminar 16394: Software Performance Engineering in the DevOps World}, arXiv:1709.08951, 2018.
+\end{itemize}
+
+\end{document}
