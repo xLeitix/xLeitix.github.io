@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  18 JUN 2026 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.17)  1 SEP 2026 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1295,7 +1295,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                213.
+(scrartcl)                218.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1307,7 +1307,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                260.
+(scrartcl)                265.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1318,7 +1318,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                283.
+(scrartcl)                288.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1330,7 +1330,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                311.
+(scrartcl)                316.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1341,7 +1341,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                324.
+(scrartcl)                329.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1353,7 +1353,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                334.
+(scrartcl)                339.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1364,7 +1364,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                336.
+(scrartcl)                341.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1375,7 +1375,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                344.
+(scrartcl)                349.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1386,7 +1386,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                353.
+(scrartcl)                358.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1398,7 +1398,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                369.
+(scrartcl)                374.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1409,7 +1409,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                383.
+(scrartcl)                388.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1421,7 +1421,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                405.
+(scrartcl)                410.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1432,7 +1432,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                425.
+(scrartcl)                430.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1443,7 +1443,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                427.
+(scrartcl)                432.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1455,7 +1455,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                433.
+(scrartcl)                438.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1466,7 +1466,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                441.
+(scrartcl)                446.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1477,7 +1477,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                453.
+(scrartcl)                458.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1488,7 +1488,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                467.
+(scrartcl)                472.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1500,7 +1500,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                478.
+(scrartcl)                483.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1511,7 +1511,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                480.
+(scrartcl)                485.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1522,7 +1522,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                489.
+(scrartcl)                494.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1533,7 +1533,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                498.
+(scrartcl)                503.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1544,7 +1544,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                507.
+(scrartcl)                512.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1556,7 +1556,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                538.
+(scrartcl)                543.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1567,7 +1567,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                552.
+(scrartcl)                557.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1579,13 +1579,13 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                582.
+(scrartcl)                587.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
 
 
-Overfull \hbox (6.79196pt too wide) in paragraph at lines 604--606
+Overfull \hbox (6.79196pt too wide) in paragraph at lines 609--611
 \OT1/cmr/m/it/10.95 (-20) a-ture Re-view\OT1/cmr/m/n/10.95 (-20) , Jour-nal of 
 Sys-tems and Soft-ware (JSS), vol. 170. 2020. doi:[]10.1016/j.jss.2020.110708[]
  
@@ -1598,25 +1598,25 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                639.
+(scrartcl)                644.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
 
 [16] [17] [18]
-Overfull \hbox (2.10109pt too wide) in paragraph at lines 679--680
+Overfull \hbox (2.10109pt too wide) in paragraph at lines 684--685
 \OT1/cmr/m/n/10.95 (-20) tional Con-fer-ence on Per-for-mance En-gi-neer-ing (I
 CPE), 2017. doi:[]10.7287/peerj.preprints.2496v2[] 
  []
 
 [19] [20]
-Overfull \hbox (2.3176pt too wide) in paragraph at lines 729--733
+Overfull \hbox (2.3176pt too wide) in paragraph at lines 734--738
 \OT1/cmr/m/n/10.95 (-20) fer-ence on Soft-ware Test-ing, Ver-i-fi-ca-tion and V
 al-i-da-tion (ICST), 2011. doi:[]10.1109/ICST.2011.55[] 
  []
 
 [21]
-Overfull \hbox (5.26561pt too wide) in paragraph at lines 735--736
+Overfull \hbox (5.26561pt too wide) in paragraph at lines 740--741
 \OT1/cmr/m/n/10.95 (-20) ence on Web Ser-vices (ICWS), In-dus-try and Ap-pli-ca
 -tions Track, 2010. doi:[]10.1109/ICWS.2010.21[] 
  []
@@ -1627,13 +1627,13 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                752.
+(scrartcl)                757.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
 
 [22] [23]
-Overfull \hbox (6.9888pt too wide) in paragraph at lines 774--775
+Overfull \hbox (6.9888pt too wide) in paragraph at lines 779--780
 []\OT1/cmr/m/n/10.95 (-20) R. Zabolot-nyi, \OT1/cmr/bx/n/10.95 (-20) P. Leit-ne
 r \OT1/cmr/m/n/10.95 (-20) and S. Dust-dar: \OT1/cmr/m/it/10.95 (-20) Dy-namic 
 Pro-gram Code Dis-tri-bu-tion in Infrastructure-
@@ -1646,7 +1646,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                793.
+(scrartcl)                798.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1657,7 +1657,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                802.
+(scrartcl)                807.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1669,7 +1669,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                827.
+(scrartcl)                832.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1680,7 +1680,7 @@ Package scrartcl Warning: Usage of \@startsection detected.
 (scrartcl)                nor support the usage of \@startsection command.
 (scrartcl)                This means, that none of the KOMA-Script features
 (scrartcl)                for headings is available for the heading on line
-(scrartcl)                845.
+(scrartcl)                850.
 (scrartcl)                If you need additional sectioning commands, you
 (scrartcl)                should define them using \DeclareNewSectionCommand
 (scrartcl)                instead.
@@ -1694,7 +1694,7 @@ L3 programming layer <2020/03/25>
 Here is how much of TeX's memory you used:
  18484 strings out of 467525
  324083 string characters out of 5418982
- 945926 words of memory out of 5000000
+ 945925 words of memory out of 5000000
  46775 multiletter control sequences out of 15000+600000
  657716 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1709,7 +1709,7 @@ r/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/
 local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
 live/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv.pdf (26 pages, 536524 bytes).
+Output written on cv.pdf (26 pages, 536528 bytes).
 PDF statistics:
  345 PDF objects out of 1000 (max. 8388607)
  293 compressed objects within 3 object streams
